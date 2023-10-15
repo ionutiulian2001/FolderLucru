@@ -1,0 +1,46 @@
+
+*
+{
+    box-sizing:border-box;
+}
+
+
+
+#content {
+  
+    overflow:hidden;
+    max-width:600px;
+    max-height:150px;
+    margin:60px auto;
+    border:2px solid black;
+    padding:10px;
+    color:lightslategrey;
+    font-weight:bold;
+    background-color:lightblue;
+    -webkit-transition:max-height 0.7s;
+    transition: max-height 1s;
+    line-height: 20px;
+}
+
+#content.open {
+    max-height: 1000px;
+    -webkit-transition:max-height 0.7s;
+    transition: max-height 1s;
+}
+
+a {
+    width:200px;
+    margin:50px auto;
+    padding:20px;
+    border:1px solid black;
+    color:#fff;
+    background-color: blue;
+    display:block;
+    text-transform:uppercase;
+    font-family: verdana;
+    text-align:center;
+}
+
+body {
+    background-color:lightskyblue;
+}
