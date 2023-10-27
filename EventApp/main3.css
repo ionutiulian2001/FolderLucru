@@ -585,7 +585,7 @@ p[class="upload-files"]:hover {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px lightgray;
+    box-shadow: 2px 2px 5px black;
     flex-wrap: wrap;
 }
 
