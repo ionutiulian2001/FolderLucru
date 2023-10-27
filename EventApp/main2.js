@@ -24,6 +24,28 @@ button.onclick = function() {
     }
 }
 
+var cutie = document.getElementById("challenge3");
+var buton = document.getElementById("expand");
+
+buton.onclick = function () {
+    if(cutie.className == "opened")
+    { // shrink it
+        cutie.className = "";
+        buton.innerHTML = "Show more";
+        buton.style.fontStyle = "italic";
+        
+
+    } 
+    else 
+    { // expand it
+        cutie.className = "opened";
+        buton.innerHTML = "Show less";
+        buton.style.fontStyle = "italic";
+
+    }
+}
+
+
 
 
 
