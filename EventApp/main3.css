@@ -594,7 +594,7 @@ p[class="upload-files"]:hover {
     height: 550px;
     margin: 10px;
     background-color: azure;
-    box-shadow: 5px 5px 1px #fff;
+    box-shadow: 4px 2px 5px black;
     border-radius:5px;
     display:flex;
     flex-direction: column;
@@ -660,4 +660,144 @@ p[class="skip"] {
 
 a[class="skip"] {
     width:100px;
+}
+
+
+#challenge5 {
+
+    border-radius:5px;
+    box-shadow:1px 1px 5px black;
+    width:85%;
+    height:650px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+    background-color: darkslategray;
+
+}
+
+#interface {
+
+    width: 35%;
+    height:600px;
+    border:1px solid #fff;
+    border-radius:5px;
+    background-color:darkslateblue;
+    box-shadow: 1px 1px 3px #fff;
+}
+
+#interface  p {
+    background-color: gold;
+    width:50px;
+    text-align: center;
+    padding:5px;
+    margin:10px 12px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px #fff;
+}
+#interface  p:hover {
+    color:#fff;
+}
+
+#photo-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#ionut {
+    width:100px;
+    height:110px;
+    border-radius:60px;
+    border:2px solid cyan;
+    padding:4px;
+}
+
+#ionut:hover {
+    border-color:blue;
+    box-shadow: 1px 1px 1px blue;
+
+}
+
+#photo-content h2 {
+    font-size:10px;
+}
+#photo-content h3 {
+    font-size: 14px;
+    color:#fff;
+    width:60%;
+    text-align: center;
+}
+
+#anchors {
+
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+
+#anchors a {
+    width:45%;
+    text-transform: none;
+    background-color:darkslateblue;
+    color:cyan;
+    border:2px solid cyan;
+    border-radius:5px;
+}
+#anchors a:hover {
+    background-color:lightskyblue;
+    color:#fff;
+    border:2px solid lightskyblue;
+}
+
+#skills {
+    background-color:darkblue;
+    width:100%;
+    height:26%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+#skills h2 {
+    font-size:15px;
+    max-width:100%;
+    max-height:12%;
+    text-align:left;
+    margin:15px 10px;
+    text-transform: uppercase;
+    text-shadow:1px 1px 2px#fff;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+li {
+
+    display:inline-block;
+    border:1px solid #fff;
+    box-shadow: 1px 1px 3px #fff;
+    padding:2px;
+    margin:3px;
+}
+
+li:hover {
+    background-color: azure;
+    color:black;
 }
