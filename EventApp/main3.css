@@ -809,6 +809,7 @@ li:hover {
     background-color: darkolivegreen;
     border:5px solid black;
     border-radius: 5px;
+    box-shadow:2px 2px 5px black;
 
 
 }
@@ -914,6 +915,107 @@ img[class="tree"] {
     background-color: #fff;
 
 
+}
+
+#challenge10 {
+    width:80%;
+    height:600px;
+    margin:10px auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgba(205,205,219,1) 35%, rgba(8,171,204,1) 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 5px;
+    box-shadow:1px 1px 3px black;
+}
+
+.content10 {
+    width:30%;
+    height:400px;
+    margin:8px;
+    background-color:beige;
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: column;
+    border-radius:5px;
+    box-shadow:1px 1px 3px black;
+    
+}
+.content10-image {
+    width:60px;
+}
+
+.content10 h2 {
+    color:lightblue;
+    font-size:20px;
+}
+
+.content10 p {
+    font-weight:bold;
+    font-size:14px;
+    text-align:center;
+}
+  
+.challenge10-buttons {
+    display:flex;
+
+
+}
+
+.challenge10-buttons a {
+    width:10px;
+    height:2px;
+    margin:2px 5px;
+    border-radius:20px;
+    border:none;
+    box-shadow:1px 1px 1px #000;
+    background-color: #fff;
+}
+
+.challenge10-buttons a:hover {
+
+    background-color: lightskyblue;
+}
+.challenge10-buttons a:active {
+
+    background-color: blue;
+}
+
+
+.challenge10-lastbuttons {
+    display:flex;
+}
+.challenge10-lastbuttons a {
+    width:100px;
+    height:50px;
+    margin:20px 4px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: none;
+    font-size:12px;
+    text-align: center;
+    border:none;
+    box-shadow:1px 1px 2px black;
+
+}
+.challenge10-lastbuttons a:nth-child(1) {
+    background-color: lightgrey;
+    color:black;
+    font-weight:bold;
+}
+.challenge10-lastbuttons a:nth-child(1):hover {
+    color:#fff;
+}
+
+.challenge10-lastbuttons a:nth-child(2) {
+    background-color:purple;
+    color:#fff;
+    font-weight:bold;
+}
+.challenge10-lastbuttons a:nth-child(2):hover {
+    color:black;
 }
 
 
