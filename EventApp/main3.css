@@ -960,8 +960,6 @@ img[class="tree"] {
   
 .challenge10-buttons {
     display:flex;
-
-
 }
 
 .challenge10-buttons a {
@@ -1017,5 +1015,128 @@ img[class="tree"] {
 .challenge10-lastbuttons a:nth-child(2):hover {
     color:black;
 }
+
+
+#challenge11 {
+    width:80%;
+    height:650px;
+    background-color: rgba(39,41,43,255);
+    margin:10px auto;
+    box-shadow: 1px 1px 5px #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge11-content {
+    width:30%;
+    height:550px;
+    background-color: rgba(35,37,38,255);
+    margin:15px;
+    box-shadow: 10px 13px 5px -3px rgba(0,0,0,0.42);
+}
+
+.upper {
+    height:250px;
+    background-color: rgba(47,49,51,255);
+    position: relative;
+    overflow:hidden;
+ 
+}
+
+h2[class*="ribbon"] {
+    font-size:15px;
+    position:absolute;
+    margin-top:0;
+    top:20px;
+    right:25px;
+    transform: translate(45.3%) rotate(45deg);
+    width:40%;
+    height:25px;
+    box-shadow:1px 1px 7px black;
+   
+}
+h2[class*="ribbon"]:hover {
+    box-shadow:1px 1px 7px #fff;
+    cursor:default;
+    transition: box-shadow 0.5s;
+
+} 
+h2[class*=one] {
+    background-color: blue;
+}
+
+h2[class*=two] {
+    background-color: rgba(167,3,254,255);
+}
+
+h2[class*=three] {
+    background-color: rgba(242,3,86,255);
+}
+
+.upper-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.wheat {
+    width:80px;
+}
+
+div[class="upper-content"] h2 {
+    font-size:15px;
+    text-transform: uppercase;
+    color:gold;
+    margin-left:20px;
+}
+div[class="upper-content"] p {
+    color:#fff;
+    line-height: 16px;
+}
+
+img[class="check"]{
+    width:20px;
+}
+
+div[class="lower-content"] {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+div[class="lower-content-item"] {
+    margin: 15px 10px;
+    width:95%;
+}
+div[class="lower-content-item"]:hover {
+  background-color:rgba(47,49,51,255);
+  border-radius: 5px;
+  transition: background-color 1s;
+  cursor:pointer;
+  
+}
+
+
+a[class="content-button"] {
+    width:80%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:gold;
+    background-color: rgba(28,30,31,255);
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+}
+a[class="content-button"]:hover {
+    box-shadow: 1px 1px 3px white;
+    transition: box-shadow 1s;
+} 
+
+
+
 
 
