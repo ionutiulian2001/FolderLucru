@@ -1,5 +1,5 @@
 
-//alert("Welcome to the site!");
+// alert("Welcome to the site!");
 
 
 var content = document.getElementById("content");
