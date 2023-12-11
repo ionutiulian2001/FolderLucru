@@ -47,6 +47,13 @@ buton.onclick = function () {
 
 
 
+var c23button = document.getElementById("challenge23-button");
+var c23header = document.getElementById("challenge23-contact");
+
+c23button.onclick = function(){
+    c23header.style.display = "block";
+}
+
 
 
 /*button.onmouseover = function () {
