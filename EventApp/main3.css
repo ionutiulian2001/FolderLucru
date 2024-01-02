@@ -3528,3 +3528,256 @@ h3.hover-underline-animation::after {
     background-color: green;
     letter-spacing: 0.5px;
     transition:box-shadow 1s, letter-spacing 1s, background-color 1s;
+   }
+
+   #challenge33 {
+    width:85%;
+    height:200px;
+    border-radius: 10px;
+    margin:10px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b6979;
+    box-shadow:1px 1px 6px black;
+   }
+
+   .challenge33-item {
+    width:90%;
+    margin:5px;
+    height:100px;
+    background-color: rgba(234,244,252,255);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow:1px 1px 6px white;
+   }
+
+   .challenge33-item img {
+    width:50px;
+    height:50px;
+    margin:10px;
+    box-shadow:1px 1px 6px black;
+    border-radius:25px;
+
+   }
+   .c33-buttons {
+    width:30%;
+    height:80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .c33-buttons a {
+    width:45%;
+    height:40px;
+    padding:10px;
+    text-transform: none;
+    text-decoration: none;
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:20px;
+   }
+
+   .c33-buttons a:hover {
+    box-shadow:1px 1px 6px black;
+    transition:box-shadow 1s;
+   }
+
+   .c33-buttons a:nth-child(1) {
+    background-color: #fff;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:14px;
+
+   }
+
+   .c33-buttons a:nth-child(2) {
+    background-color: rgba(42,115,150,255);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:14px;
+   }
+
+
+   em.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+    cursor:pointer;
+}
+  
+em.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+em.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  #challenge34 {
+    width:85%;
+    height:700px;
+    border-radius: 5px;
+    background-color: rgba(103,60,154,255);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+    box-shadow: 1px 1px 6px black;
+  }
+
+  .challenge34-item {
+    width:85%;
+    height:600px;
+    margin:5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,255);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 6px black;
+  }
+
+  .challenge34-item h1 {
+    color:white;
+    font-size:20px;
+    padding:10px;
+    background-color: rgba(103,60,154,255);
+    text-transform: uppercase;
+    border-radius:10px;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .challenge34-item h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size:18px;
+    text-align: center;
+  }
+
+  .challenge34-item p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size:16px; 
+    padding:5px;
+  }
+
+  .challenge34-photos {
+    width:90%;
+    height:300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+  }
+
+  .challenge34-photos-one {
+    margin:10px;
+    background-image:url('universe.jpg');
+    width:60%;
+    height:300px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+  }
+
+  .challenge34-photos-one h1 {
+    font-size:18px;
+    background-color: black;
+    padding:10px;
+  }
+
+  .challenge34-photos-two {
+    margin:10px;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:30%;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 3px black;
+  }
+  .challenge34-photos-two img {
+    height:200px;
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .challenge34-photos-two p {
+    padding:5px;
+    text-align: justify;
+  }
+
+  .challenge34-item a {
+    margin:10px;
+    height:50px;
+    width:25%;
+    text-transform: none;
+    text-decoration: none;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(103,60,154,255);
+    color:white;
+    border:none;
+    border-radius: 10px;
+    padding:15px;
+  }
+
+  .challenge34-item a:hover {
+    letter-spacing:0.5px;
+    background-color: crimson;
+    transition:letter-spacing 1s, background-color 1s;
+  }
+
+  h2.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+    cursor:pointer;
+}
+  
+h2.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+h2.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
