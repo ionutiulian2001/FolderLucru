@@ -3781,3 +3781,97 @@ h2.hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  #challenge35 {
+    width:65%;
+    height: 600px;
+    margin:10px auto;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(254,237,238,255);
+    box-shadow: 1px 1px 6px black;
+  }
+
+
+  .challenge35-item {
+    width:50%;
+    height:500px;
+    margin:5px;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px black;
+  }
+
+  .challenge35-item img {
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    box-shadow:1px 1px 6px black;
+  }
+
+  .challenge35-item h2 {
+    font-size:14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .challenge35-item p {
+    background-color: rgba(247,244,252,255);
+    padding:10px;
+    border-radius:5px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .challenge35-item form {
+   margin:5px;
+   text-align: center;
+  }
+  .challenge35-item form input {
+    color:black;
+  }
+ input[id="checkbox"] {
+    width:20px;
+    height:20px;
+    margin:5px;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .challenge35-item a {
+    margin:5px;
+    background-color: #a20062;
+    width:50%;
+    height:40px;
+    padding:10px;
+    border-radius: 5px;
+    text-transform: none;
+    text-decoration: none;
+    border:none;
+ }
+
+ .challenge35-item a:hover {
+    box-shadow:1px 1px 6px black;
+    transition: box-shadow 1s;
+ }
+
+ .challenge35-item h1 {
+    color:rgba(215,175,191,255);
+    text-decoration: underline;
+    font-size: 14px;
+    margin:5px;
+ }
+
+ .challenge35-item h1:hover {
+    color:red;
+    transition: color 1s;
+    cursor:pointer;
+ }
